@@ -1,4 +1,4 @@
-const CACHE = "juance-ipad-v19";
+const CACHE = "juance-ipad-v20";
 const SHELL = ["/", "/manifest.webmanifest", "/favicon.svg"];
 
 async function precacheApplication() {
