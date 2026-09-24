@@ -1,0 +1,17 @@
+{
+  "name": "卷册工坊 · Web/PWA 人物卡",
+  "short_name": "卷册工坊",
+  "description": "与 Windows v1 规则行为同步的 D&D 5R Web/PWA 人物卡构筑与跑团工具",
+  "lang": "zh-CN",
+  "id": "/",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#f2efe8",
+  "theme_color": "#7f1d2d",
+  "categories": ["games", "utilities"],
+  "icons": [
+    { "src": "/favicon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}

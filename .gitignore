@@ -1,0 +1,69 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+# testing
+/coverage
+
+# next.js
+/.next/
+/.vinext/
+/out/
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# env files (can opt-in for committing if needed)
+.env*
+
+# vercel
+.vercel
+
+/dist/
+/dist-pages/
+/.wrangler/
+/outputs/
+/work/
+*.tsbuildinfo
+*.xlsx
+
+# .NET and Android build output
+/native/**/bin/
+/native/**/obj/
+/android/**/bin/
+/android/**/obj/
+/shared/**/bin/
+/shared/**/obj/
+/tests/Juance.Core.Smoke/bin/
+/tests/Juance.Core.Smoke/obj/
+/tools/**/bin/
+/tools/**/obj/
+
+# local package cache, scratch space, and generated releases
+/.pnpm-store/
+/package-lock.json
+/build/
+/tmp/
+/release-native*/
+/native/bin/Development-*/
+/卷册工坊/
+/卷册工坊安装程序.exe
+
+# Signing secrets must never be committed
+*.keystore
+*.jks
